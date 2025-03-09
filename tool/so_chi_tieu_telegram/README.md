@@ -88,3 +88,12 @@ và kết quả
 
 <image src="https://github.com/user-attachments/assets/96fecfd4-f472-4267-a462-dcd78a1fe104" width="600px" >
 
+Bước 6: Ngoài ra chúng ta cần thêm ô tổng chi tiêu ở đây là E2
+
+<image src="https://github.com/user-attachments/assets/c38adfd4-1235-49e8-b7e7-105814df9102" width="600px" >
+
+Rồi chỉnh sửa xong copy thành, và nhớ deploy lại để lấy URL mới, xong đó run với function `setWebhook` như ở các bước treen
+
+```gs
+const SUM_CELL = 'E2';
+```
